@@ -37,7 +37,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Bank of Flatiron</h1>
+        <h1>The Royal Bank of Flatiron</h1>
         <TransactionForm onAddTransaction={addTransaction} />
         <TransactionFilter onFilter={filterTransactions} />
         <TransactionTable transactions={transactions} />
