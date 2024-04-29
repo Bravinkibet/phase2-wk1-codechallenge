@@ -2,19 +2,22 @@
   text-align: center;
 }
 
+/* Increase the size of the logo */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+/* Apply animation to the logo */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
+/* Styles for the header */
 .App-header {
-  background-color: #282c34;
+  background-color: #0a1833;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,10 +27,12 @@
   color: white;
 }
 
+/* Styles for links */
 .App-link {
   color: #61dafb;
 }
 
+/* Keyframes for logo spin animation */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +40,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Styles for table */
+table {
+  width: 90%;
+  max-height: 500px; 
+  border: 2px solid rgb(216, 210, 210);
+  border-collapse: collapse; 
+}
+
+
+/* Styles for table header cells */
+th {
+  padding: 15px;
+}
+
+/* Styles for table data cells */
+td {
+  padding: 10px;
+}
+
+table, th, td{
+  border: 1px solid rgb(216, 210, 210);
+  border-collapse: collapse;
 }

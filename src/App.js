@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import TransactionTable from './components/TransactionTable';
 import TransactionForm from './components/TransactionForm';
 import TransactionFilter from './components/TransactionFilter';
-import './App.css'; // Import the CSS file for styling
+import './App.css';
 
 function App() {
   const [transactions, setTransactions] = useState([
@@ -13,6 +13,7 @@ function App() {
     { id: 3, date: '2024-04-26', description: 'Dinner', category: 'Expenses', amount: -300 },
     { id: 4, date: '2024-04-25', description: 'Gas bill', category: 'Expenses', amount: -80 },
     { id: 5, date: '2024-04-24', description: 'Phone bill', category: 'Expenses', amount: -60 },
+    { id: 5, date: '2024-04-24', description: 'Girlfriend allowance', category: 'Expenses', amount: -60 },
     { id: 6, date: '2024-04-23', description: 'Movie tickets', category: 'Expenses', amount: -25 },
     { id: 7, date: '2024-04-22', description: 'Internet bill', category: 'Expenses', amount: -700 },
     { id: 8, date: '2024-04-21', description: 'Lunch', category: 'Expenses', amount: -15 },
