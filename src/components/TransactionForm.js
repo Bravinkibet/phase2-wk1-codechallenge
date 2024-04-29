@@ -28,7 +28,7 @@ const TransactionForm = ({ onAddTransaction }) => {
   return (
     <form onSubmit={handleSubmit}>
       <input
-        type="text"
+        type="date"
         name="date"
         placeholder="Date"
         value={formData.date}
